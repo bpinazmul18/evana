@@ -37,7 +37,7 @@ html {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color: red;
+    color: #000;
 }
 
 .btn {
@@ -215,12 +215,12 @@ header {
 /*ABOUT SECTION START*/
 /*ABOUT SECTION START*/
 
-.about-section {
+/* .about-section {
     background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./img/about-bg.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-}
+} */
 
 .about-section .img-fluid {
     width: 100%;
@@ -271,4 +271,68 @@ header {
 
 .card-content .lead:first-child {
     margin-bottom: 40px;
+}
+
+/*FEATURES SECTION START*/
+/*FEATURES SECTION START*/
+
+.features-section {
+    background: #f5f9fd;
+}
+
+.features-section.section-padding {
+    padding-bottom: 0;
+}
+
+.features-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #726bb1;
+    margin-bottom: 50px;
+}
+.features-section .lead {
+    color: #555555;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.features-section .img-fluid {
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: -10%;
+}
+
+.features-list {
+    display: flex;
+    margin: 50px 0;
+}
+.features-list:first-child {
+    margin-top: 0;
+}
+
+.features-list:last-child {
+    margin-bottom: 0;
+}
+
+.features-icon {
+    padding-top: 10px;
+}
+
+.features-content {
+    padding-left: 20px;
+}
+
+.features-content h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.features-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #555555;
 }
