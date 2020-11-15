@@ -1,0 +1,274 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/*BASIC SETUP START*/
+/*BASIC SETUP START*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*REUSABLE COMPONENT START*/
+/*REUSABLE COMPONENT START*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+.lead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: red;
+}
+
+.btn {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    color: #222222;
+    position: relative;
+    z-index: 1;
+}
+
+.btn:after {
+    content: "";
+    background: #fff;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: -16px;
+    top: -20px;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.btn:hover:after {
+    width: 140%;
+    background:#fff;
+}
+
+
+/*HEADER SECTION START*/
+/*HEADER SECTION START*/
+
+
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.logo {
+    margin-top: 48px;
+    float: left;
+    margin-left: 120px;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 40px;
+}
+
+.main-nav span {
+    border: 1px solid #fff;
+    display: block;
+}
+
+.main-nav span:hover {
+    cursor: pointer;
+}
+
+.main-nav .fas {
+    color: #222222;
+    font-size: 18px;
+    padding: 11px 13px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay-content ul {
+    list-style-type: none;
+}
+
+.overlay-content ul li {
+    display: block;
+    margin: 28px 0;
+}
+
+.overlay-content ul li:first-child {
+    margin-top: 0;
+}
+
+.overlay-content ul li:last-child {
+    margin-bottom: 0;
+}
+
+.overlay-content ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.overlay-content ul li a:hover {
+    color: #ddd;
+}
+
+.closebtn {
+    float: right;
+    margin-top: 40px;
+    margin-right: 80px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*BANNER SECTION START*/
+/*BANNER SECTION START*/
+.banner {
+    background: url(./img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-text-box {
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    padding-left: 10%;
+    padding-top: 240px;
+    padding-bottom: 310px;
+}
+
+.hero-text-box h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 28px;
+}
+
+.hero-text-box h2 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #726bb1;
+    text-transform: capitalize;
+    padding-bottom: 46px;
+}
+
+.hero-text-box .lead {
+    color: #000;
+    padding-bottom: 80px;
+}
+
+.hero-text-box-btn {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.hero-text-box-btn:hover {
+    cursor: pointer;
+}
+
+/*ABOUT SECTION START*/
+/*ABOUT SECTION START*/
+
+.about-section {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.about-section .img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.about-section .box:first-child {
+    margin-left: 20%;
+}
+
+.about-section h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 58px;
+}
+
+.about-section p {
+    color: #555555;
+    font-weight: 500;
+    margin-bottom: 130px;
+}
+
+.about-section .btn {
+    float: right;
+}
+
+.about-section .btn:after {
+    background: #cfccff;
+}
+
+.about-section .card {
+    margin-top: -50%;
+}
+
+.card .img-fluid {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+}
+
+.card-content .lead {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.card-content .lead:first-child {
+    margin-bottom: 40px;
+}
