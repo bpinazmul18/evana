@@ -6,9 +6,7 @@ $(document).ready(function(){
             $("nav").removeClass("sticky");
         }
     });
-
     //CAROUSEL//
-
     $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
@@ -16,7 +14,6 @@ $(document).ready(function(){
         dots: false,
         items: 1
     });
-
     //CAROUSEL BUTTON//
 
     $('.control-prev-btn').click(function(){
@@ -25,23 +22,10 @@ $(document).ready(function(){
     $('.control-next-btn').click(function(){
         $('.owl-next').trigger('click');
     });
-
-
-
-
-
-
-
-
-
-
-
-
 });
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
 }
-
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
