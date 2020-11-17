@@ -731,3 +731,64 @@ header {
 }
 /*TESTIMONIAL SECTION START*/
 /*TESTIMONIAL SECTION START*/
+
+.testimonial-section {
+    background: #f5f9fd;
+    padding: 120px 0;
+}
+
+.testimonial-inner {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonial-single-item .testimonial-quate {
+    margin-bottom: 80px;
+}
+
+.testimonial-single-item h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #222222;
+    margin-bottom: 50px;
+}
+
+.testimonial-single-item .lead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #555555;
+    font-style: italic;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.client-section {
+    display: flex;
+    justify-content: center;
+}
+
+.client-section .client-icon img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.client-info h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 16px;
+}
+
+.client-info span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #555555;
+}
+
