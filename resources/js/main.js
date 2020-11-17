@@ -6,6 +6,37 @@ $(document).ready(function(){
             $("nav").removeClass("sticky");
         }
     });
+
+    //CAROUSEL//
+
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        items: 1
+    });
+
+    //CAROUSEL BUTTON//
+
+    // $('.owl-prev-btn').click(function(){
+    //     $('.owl-prev').trigger('click');
+    // });
+    // $('.owl-next-btn').click(function(){
+    //     $('.owl-next').trigger('click');
+    // });
+
+
+
+
+
+
+
+
+
+
+
+
 });
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
