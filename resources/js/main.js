@@ -19,12 +19,12 @@ $(document).ready(function(){
 
     //CAROUSEL BUTTON//
 
-    // $('.owl-prev-btn').click(function(){
-    //     $('.owl-prev').trigger('click');
-    // });
-    // $('.owl-next-btn').click(function(){
-    //     $('.owl-next').trigger('click');
-    // });
+    $('.control-prev-btn').click(function(){
+        $('.owl-prev').trigger('click');
+    });
+    $('.control-next-btn').click(function(){
+        $('.owl-next').trigger('click');
+    });
 
 
 

@@ -741,10 +741,17 @@ header {
     width: 60%;
     margin: 0 auto;
     text-align: center;
+    position: relative;
 }
 
 .testimonial-single-item .testimonial-quate {
     margin-bottom: 80px;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .testimonial-single-item h2 {
@@ -791,4 +798,23 @@ header {
     font-weight: 300;
     color: #555555;
 }
+
+.owl-nav {
+    display: none;
+}
+
+.control-prev-btn, .control-next-btn {
+    position: absolute;
+    top: 50%;
+}
+
+.control-prev-btn {
+    margin-left: -20%;
+}
+
+.control-next-btn {
+    right: 0;
+    margin-right: -20%;
+}
+
 
