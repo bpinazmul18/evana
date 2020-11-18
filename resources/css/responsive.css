@@ -1,0 +1,41 @@
+/*MEDIA SCREEN MAX-WIDTH-1200PX AND MIN-WIDTH-1025PX*/
+@media only screen and (max-width: 1200px) {
+    html {
+        display: none;
+    }
+}
+
+/*MEDIA SCREEN MAX-WIDTH-1024PX AND MIN-WIDTH-993PX*/
+@media only screen and (max-width: 1024px) {
+    html {
+        display: none;
+    }
+}
+
+/*MEDIA SCREEN MAX-WIDTH-992PX AND MIN-WIDTH-769PX*/
+@media only screen and (max-width: 992px) {
+    html {
+        display: none;
+    }
+}
+
+/*MEDIA SCREEN MAX-WIDTH-768PX AND MIN-WIDTH-577PX*/
+@media only screen and (max-width: 768px) {
+    html {
+        display: none;
+    }
+}
+
+/*MEDIA SCREEN MAX-WIDTH-576PX AND MIN-WIDTH-481PX*/
+@media only screen and (max-width: 576px) {
+    html {
+        display: none;
+    }
+}
+
+/*MEDIA SCREEN MAX-WIDTH-576PX AND MIN-WIDTH-481PX*/
+@media only screen and (max-width: 480px) {
+    html {
+        display: none;
+    }
+}

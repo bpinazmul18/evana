@@ -471,6 +471,7 @@ header {
 .gallery-single-img-wrapper a span {
     align-self: center;
     margin-right: 16px;
+    color: #222222;
 }
 .gallery-single-img-wrapper a img {
     width: auto;
