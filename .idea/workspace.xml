@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="031bafa8-56c3-4df3-bbce-b64e6da29b17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/css/responsive.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="031bafa8-56c3-4df3-bbce-b64e6da29b17" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +65,7 @@
       <workItem from="1605763377274" duration="2424000" />
       <workItem from="1605767068360" duration="400000" />
       <workItem from="1605776515519" duration="8649000" />
+      <workItem from="1605786966304" duration="336000" />
     </task>
     <servers />
   </component>
