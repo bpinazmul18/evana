@@ -569,10 +569,12 @@ header {
     width: 47%;
     display: flex;
     box-shadow: 0px 3px 24px 0px rgba(6, 7, 7, 0.08);
-    margin: 2% 1%;
+    margin: 2% 0;
     padding: 40px;
 }
-
+.services-content-single-item:nth-child(1), .services-content-single-item:nth-child(3) {
+    margin-right: 1%;
+}
 .services-icon {
     padding-right: 36px;
 }
@@ -926,6 +928,7 @@ header {
 
 .single-news-item {
     padding: 0 15px;
+    width: 33%;
 }
 
 .single-news-item:nth-child(1){
@@ -938,6 +941,7 @@ header {
 
 .single-news-item img {
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .single-news-item h4 {

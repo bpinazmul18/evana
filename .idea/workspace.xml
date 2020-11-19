@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58e9f6f3-89f2-418f-a076-b3a3abeaceac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="031bafa8-56c3-4df3-bbce-b64e6da29b17" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,44 +10,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1kRuT0nrnui21o6D21ikp0jkCUs" />
+  <component name="ProjectId" id="1kSJhJ1xP9d5Hgavhyl8Aohtmw2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="FirefoxRemoteDebugType" editBeforeRun="true" host="localhost/">
-      <method v="2">
-        <option name="LaunchBrowser.Before.Run" url="localhost/6000" withDebugger="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="58e9f6f3-89f2-418f-a076-b3a3abeaceac" name="Default Changelist" comment="" />
-      <created>1605675730564</created>
+      <changelist id="031bafa8-56c3-4df3-bbce-b64e6da29b17" name="Default Changelist" comment="" />
+      <created>1605688179131</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605675730564</updated>
-      <workItem from="1605675733997" duration="3211000" />
+      <updated>1605688179131</updated>
+      <workItem from="1605688181262" duration="235000" />
+      <workItem from="1605690134934" duration="14565000" />
+      <workItem from="1605759536253" duration="44000" />
+      <workItem from="1605760117098" duration="2291000" />
+      <workItem from="1605763377274" duration="2424000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605676008915">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1605676008915" />
   </component>
 </project>
